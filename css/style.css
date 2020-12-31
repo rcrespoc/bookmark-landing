@@ -396,12 +396,35 @@ footer{
 footer > p{
   margin: 0;
 }
+.bookmark-3,
+.bookmark-2,
 .bookmark-1{
   position: relative;
+  width: 100%;
 }
 .mobile-bookmark{
   display: none;
 }
+.bookmark-section{
+  overflow-x: hidden;
+}
+.bookmark-section input{
+  display: none;
+}
+.carousel{
+  display:flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+#simple-bookmarking:checked ~ .carousel{
+    transform: translateX(0%);
+  }
+  #speedy-searching:checked ~ .carousel{
+    transform: translateX(-33%);
+  }
+  #easy-sharing:checked ~ .carousel{
+    transform: translateX(-66%);
+  }
 @media screen and (min-width: 64rem){
   .features{
     margin-top: 0;
@@ -417,6 +440,11 @@ footer > p{
     top: 5rem;
     height: 17rem;
   }
+  .features > .container label{
+    cursor: pointer;
+  }
+  
+
   .features > .container > p{
     margin-bottom: 2rem;
     max-width: 50%;
@@ -429,6 +457,8 @@ footer > p{
     transform: scale(1.5);
     cursor: pointer;
   }
+  .bookmark-3,
+  .bookmark-2,
   .bookmark-1{
     display: flex;
     position: relative;
