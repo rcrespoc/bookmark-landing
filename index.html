@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <header class="header">
+    <section class="container">
+      <img src="images/logo-bookmark.svg" alt="Logo Bookmark" class="logo">
+      <button class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15"><path fill="#242A45" fill-rule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z"/></svg>
+        <svg class="none" xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z"/></svg>
+      </button>
+      <nav class="menu">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="#login">Login</a>
+      </nav>
+    </section>
+  </header>
+  <section class="hero-desktop">
+    <section class="hero-image">
+      <img src="images/illustration-hero.svg" alt="">
+    </section>
+    <div class="semi-circulo sm-2"></div>
+    <section class="welcome-text">
+      <article class="container">
+        <h2 class="text-center text-lg-start line-h-3 fs-2 opacity-8">A Simple Bookmark Manager</h2>
+        <p class="text-center text-lg-start line-h-15 opacity-5">A clean and simple interface to organize your favourite websites. Open a new 
+      browser tab and see your sites load instantly. Try it for free.</p>
+      </article>
+      <article class="botones text-center text-lg-start">
+        <a class="btn btn-azul" href="#">Get it on Chrome</a>
+        <a class="btn btn-blanco" href="#">Get it on Firefox</a>
+      </article>
+    </section>
+  </section>
+  <section id="features" class="features mt-10 py-4">
+    <article class="container">
+      <h2 class="text-center fs-2 opacity-8">Features</h2>
+      <p class="text-center line-h-15 opacity-5">Our aim is to make it quick and easy for you to access your favourite websites. 
+      Your bookmarks sync between your devices so you can access them on the go.</p>
+      <hr>
+      <h3 id="feature1" class="text-center py-1 opacity-8 fw-light">Simple Bookmarking</h3>
+      <hr>
+      <h3 class="text-center py-1 opacity-8 fw-light">Speedy Searching</h3>
+      <hr>
+      <h3 class="text-center py-1 opacity-8 fw-light">Easy Sharing</h3>
+      <hr>
+    </article>
+  </section>
+  <section class="bookmark-section my-4">
+    <article class="bookmark-1">
+      <article class="bookmark-hero">
+        <article class="container">
+          <img src="images/illustration-features-tab-1.svg" alt="">
+        </article>
+      </article>
+      <div class="semi-circulo sm-1"></div>
+      <article class="bookmark-text my-6">
+        <article class="container">
+          <h2 class="text-center text-lg-start fs-2 opacity-8">Bookmark in one click</h2>
+          <p class="text-center text-lg-start line-h-15 opacity-5">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.</p>
+          <a href="#" class="btn btn-azul mobile-bookmark">More Info</a>
+        </article>
+      </article>
+    </article>
+  </section>
+  <section class="dowload-extensions">
+    <article class="container">
+      <div class="article download-title my-6">
+        <h2 class="text-center fs-2 opacity-8">Download the extension</h2>
+        <p class="text-center line-h-15 opacity-5">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+        got a favourite you’d like us to prioritize.</p>
+      </div>
+      <div class="cards">
+        <article class="card-extension">
+          <article class="card-body text-center my-4 my-lg-0 box-shadow-4 border-r-5">
+            <img class="my-2" src="images/logo-chrome.svg" alt="Logo Chrome">
+            <h2 class="opacity-8">Add to Google</h2>
+            <p class="opacity-5">Minimum version 62</p>
+            <img src="images/bg-dots.svg" alt="">
+            <article class="card-footer text-center">
+              <a href="#" class="btn btn-azul my-2">Add & Install Extension</a>
+            </article>
+          </article>
+        </article> <!-- GOOGLE EXTENSION -->
+        <article class="card-extension">
+          <article class="card-body text-center my-4 my-lg-0 box-shadow-4 border-r-5">
+            <img class="my-2" src="images/logo-firefox.svg" alt="Logo Chrome">
+            <h2 class="opacity-8">Add to Firefox</h2>
+            <p class="opacity-5">Minimum version 65</p>
+            <img src="images/bg-dots.svg" alt="">
+            <article class="card-footer text-center">
+              <a href="#" class="btn btn-azul my-2">Add & Install Extension</a>
+            </article>
+          </article>
+        </article> <!-- FIREFOX EXTENSION -->
+        <article class="card-extension">
+          <article class="card-body text-center my-4 my-lg-0 box-shadow-4 border-r-5">
+            <img class="my-2" src="images/logo-opera.svg" alt="Logo Chrome">
+            <h2 class="opacity-8">Add to Opera</h2>
+            <p class="opacity-5">Minimum version 46</p>
+            <img src="images/bg-dots.svg" alt="">
+            <article class="card-footer text-center">
+              <a href="#" class="btn btn-azul my-2">Add & Install Extension</a>
+            </article>
+          </article>
+        </article> <!-- OPERA EXTENSION -->
+      </div>
+    </article>
+  </section>
+  <section class="faqs-container my-6" id="faqs">
+    <article class="container">
+      <article class="faqs-header">
+        <h2 class="text-center opacity-8 fs-2">Frequently Asked Questions</h2>
+        <p class="text-center opacity-5 line-h-15">
+          Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.
+        </p>
+      </article>
+      <section class="faqs my-4">
+        <article class="faq-1 my-1">
+          <div class="faq-1-title">
+            <h3 class="fw-light">What is Bookmark?</h3>
+            <button id="btn-faq-1">
+              <svg id="faq-1" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+              <svg class="none" xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z"/></svg>
+            </button>
+          </div>
+          <div class="faq-1-body none" id="faq-1-body">
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+        </article>
+        <hr> <!-- FAQ 1 -->
+        <article class="faq-2 my-1">
+          <div class="faq-2-title">
+            <h3 class="fw-light">How can I request a new browser?</h3>
+            <button id="btn-faq-2">
+              <svg id="faq-2" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+              <svg class="none" xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z"/></svg>
+            </button>
+          </div>
+          <div class="faq-2-body none" id="faq-2-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+        </article>
+        <hr> <!-- FAQ 2 -->
+        <article class="faq-3 my-1">
+          <div class="faq-3-title">
+            <h3 class="fw-light">Is there a mobile app?</h3>
+            <button id="btn-faq-3">
+              <svg id="faq-3" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+              <svg class="none" xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z"/></svg>
+            </button>
+          </div>
+          <div class="faq-3-body none" id="faq-3-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+        </article>
+        <hr> <!-- FAQ 3 -->
+        <article class="faq-3 my-1">
+          <div class="faq-4-title">
+            <h3 class="fw-light">What about other Chromium browsers?</h3>
+            <button id="btn-faq-4">
+              <svg id="faq-4" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+              <svg class="none" xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z"/></svg>
+            </button>
+          </div>
+          <div class="faq-4-body none" id="faq-4-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+        </article>
+        <hr> <!-- FAQ 4 -->
+      </section>
+      <div class="faqs-footer text-center">
+        <a href="#" class="btn btn-azul">More Info</a>
+      </div>
+    </article> <!-- FAQS-TITLE -->
+  </section>
+  <section class="contact py-4" id="contact">
+    <article class="container">
+      <article class="contact-title text-center color-white">
+        <h5 class="fw-light">35.000+ already joined</h5>
+        <h2 class="fw-light mt-1">Stay up-to-date with what we're doing</h2>
+      </article>
+      <article class="form-contact">
+        <form class="contact-form my-2">
+          <input type="email" autocomplete="off" placeholder="Enter your email address" required name="email" id="email">
+          <input type="submit" class="btn" value="Contact Us">
+        </form>
+      </article>
+    </article>
+  </section>
+  <section class="footer py-4">
+    <article class="container text-center">
+      <img src="images/bookmark-logo-oscuro.png" alt="Logo Bookmark" class="logo">
+      <nav class="footer-nav">
+        <a href="#features">FEATURES</a>
+        <a href="#pricing">PRICING</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <article class="sociales">
+        <img src="images/icon-facebook.svg" alt="Facebook">
+        <img src="images/icon-twitter.svg" alt="Twitter">
+      </article>
+    </article>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br> 
+      Coded by <a href="#">Richard Crespo</a>.
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
